@@ -216,6 +216,7 @@ img {
   height: 64px;
   flex-shrink: 0;
 }
+
 .title {
   color: #2e2f42;
   background-color: #ffffff;
@@ -758,3 +759,5 @@ img {
 .form-input:focus + .input-svg-icon {
   fill: #4d5ae5;
 }
+
+/* ================================= MOBILE =================================*/
