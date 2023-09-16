@@ -176,15 +176,8 @@
     flex-wrap: wrap;
     gap: 24px;
   }
-  .second-section-list-item {
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 72px;
-  }
   .title {
-    align-self: stretch;
-    justify-content: center;
+    text-align: center;
     margin-top: 72px;
     font-size: 36px;
     font-weight: 700;
@@ -265,26 +258,27 @@
 
   /* ============== footer  ============== */
   .footer {
-    width: 320px;
-    height: 664px;
-    flex-shrink: 0;
-  }
-  .footer-container {
-    height: 664px;
   }
   .fotter-logo-p {
-    text-align: center;
+  }
+  .subscribe-form {
+    margin-top: 16px;
+    
   }
   .container-footer-social {
-    text-align: center;
+    margin-top: 72px;
+  }
+  .social-media {
+    margin-left: 112px;
   }
   .icons-footer-list {
-    text-align: center;
+    margin-left: 56px;
   }
-
-  .subscribe-form {
-    flex-direction: row;
-    gap: 24px;
-    align-items: center;
+  .subscribe-p {
+    margin-left: 33px;
+    margin-top: 72px;
+  }
+  .subscribe-input {
+    marg
   }
 }

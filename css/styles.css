@@ -429,10 +429,10 @@ img {
   max-width: 264px;
   margin-top: 1px;
 }
-.footer-container {
+/* .footer-container {
   display: flex;
   align-items: baseline;
-}
+} */
 .social-media {
   font-weight: 500;
   font-size: 16px;
@@ -671,10 +671,10 @@ img {
   color: #ffffff;
 }
 
-.subscribe-form {
+/* .subscribe-form {
   display: flex;
   gap: 24px;
-}
+} */
 
 .subscribe-input {
   width: 264px;
