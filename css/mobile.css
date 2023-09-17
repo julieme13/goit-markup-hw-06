@@ -1,8 +1,8 @@
 /* header */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .body {
-    background: #fff;
-    width: 767px;
+    justify-content: space-between;
+    max-width: 767px;
   }
   .header {
     border-bottom: 1px solid #e7e9fc;
@@ -15,6 +15,9 @@
   .contact-link,
   .menu-list {
     display: none;
+  }
+  .name-web {
+    margin-top: 25px;
   }
   .menu-div {
     padding-top: 16px;
@@ -71,7 +74,6 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/mobile.jpg);
-    max-width: 100%;
   }
 
   .button {
@@ -121,7 +123,7 @@
   /* Section 3 */
   .section-team {
     background-color: #f4f4fd;
-    width: 320px;
+    width: 100%;
   }
   .title-our-team {
     text-align: center;
@@ -166,7 +168,6 @@
   }
   .main-title {
     display: flex;
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
