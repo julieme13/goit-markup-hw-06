@@ -4,9 +4,9 @@
     min-width: 768px;
   }
   .container {
-    padding: 0 15px;
-    margin: 0 auto;
-    min-width: 768px;
+    width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .header {
     width: 768px;
@@ -16,6 +16,9 @@
       0px 1px 1px 0px rgba(46, 47, 66, 0.16),
       0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   }
+  .header-item {
+    display: flex;
+  }
   .name-web {
     margin-left: 16px;
   }
@@ -24,15 +27,53 @@
   }
   .contact-link {
     flex-direction: column;
-    display: inline-flex;
-    width: 119px;
-    height: 14px;
-    justify-content: space-between;
-    padding: 24px 0;
   }
   .menu-div {
     display: none;
   }
   .address-item {
+    margin-right: 16px;
+    margin-left: 117px;
+    margin-top: 16px;
+  }
+  /* first section */
+  .first-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office-people-tablet.jpg);
+  }
+  .post-title {
+    width: 496px;
+    margin-left: 136px;
+  }
+  .button {
+    margin-left: 300px;
+  }
+  /* second section */
+  .second-section {
+    margin-top: 96px;
+    padding-left: 16px;
+    display: flex;
+  }
+  .second-section-list-item {
+    display: none;
+  }
+  .second-section-items {
+    width: calc((100% - 24px px) / 2);
+    padding-bottom: 72px;
+  }
+  .second-section-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .title {
+    text-align: left;
+  }
+  .post {
+    text-align: left;
   }
 }
