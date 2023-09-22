@@ -35,6 +35,9 @@
     margin-left: 117px;
     margin-top: 16px;
   }
+  .open-mobile-menu-btn {
+    display: none;
+  }
   /* first section */
   .first-section {
     background-image: linear-gradient(

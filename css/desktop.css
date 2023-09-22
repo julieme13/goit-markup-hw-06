@@ -31,7 +31,8 @@
     gap: 40px;
     display: flex;
   }
-  .contact-container-link {
+  .open-mobile-menu-btn {
+    display: none;
   }
   /* 1 section */
   .first-section {
