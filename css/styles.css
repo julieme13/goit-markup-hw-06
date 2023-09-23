@@ -299,11 +299,13 @@ img {
 }
 .our-team-icons {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 24px;
 }
 .icon-our-team {
   fill: #f4f4fd;
+  width: 16px;
+  height: 16px;
 }
 
 /*Section 4 */

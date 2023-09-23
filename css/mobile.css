@@ -9,6 +9,11 @@
     padding: 0 16px;
     margin: 0 auto;
   }
+  .contact-container,
+  .address-item {
+    display: none;
+  }
+
   .header {
     height: 56px;
     border-bottom: 1px solid #e7e9fc;
@@ -22,6 +27,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .open-mobile-menu-btn {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    padding: 0;
   }
 
   .menu-list {
@@ -43,6 +54,8 @@
     align-items: flex-start;
     gap: 10px;
     margin-left: 75px;
+    text-align: center;
+    justify-content: center;
   }
 
   .post-title {
@@ -99,6 +112,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .our-team-icon {
+    gap: 40px;
   }
   .team-background {
     background-color: #fff;
@@ -181,16 +197,15 @@
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
   }
 
   .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    border: #2e2f42;
-  }
-  .mobile-menu-navigation {
-    gap: 40px;
   }
   .contact-container-mob {
     color: #2e2f42;
@@ -201,9 +216,10 @@
     align-items: center;
     padding: 24px 0;
   }
-  .address-item {
-    margin-top: 168px;
+  .address-item-mob {
+    margin-top: auto;
     margin-bottom: 48px;
+    font-style: normal;
   }
   .contact-link-mob {
     margin-bottom: 24px;
@@ -218,8 +234,16 @@
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+  .link-network-team {
+    width: 40px;
+    height: 40px;
   }
   .close-form {
-    color: black;
+    border: none;
+    color: #2e2f42;
   }
 }
