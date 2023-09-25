@@ -1,16 +1,17 @@
 @media screen and (min-width: 1158px) {
-  body {
-  }
   .container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
+    margin: 0 auto;
+    min-width: 1158px;
   }
   .header-item {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     border-bottom: 1px solid #e7e9fc;
+  }
+  .header {
+    display: flex;
   }
   .logo-line {
     display: flex;
@@ -18,11 +19,17 @@
   }
   .address-item {
     font-style: normal;
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+    margin-left: auto;
   }
   .contact-container {
     display: flex;
     gap: 40px;
     align-items: center;
+    font-style: normal;
+    padding: 24px 0;
   }
   .contact-link {
     flex-direction: row;
@@ -30,6 +37,9 @@
     font-style: normal;
     gap: 40px;
     display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0 24px;
   }
   .current::after {
     content: "";
@@ -54,6 +64,11 @@
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office1.jpg);
   }
   .post-title {
     display: flex;
@@ -83,6 +98,14 @@
   .second-section-list-item {
     display: flex;
   }
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .post {
+    font-weight: 400;
+    font-size: 16px;
+  }
   /*3 section */
   .team-background {
     background-color: #fff;
@@ -96,6 +119,7 @@
     padding-bottom: 120px;
   }
   .our-portfolio-list {
+    display: flex;
     flex-wrap: wrap;
   }
   .our-portfolio-item {
@@ -108,11 +132,29 @@
   .footer {
     padding: 100px 0;
   }
+  .fotter-logo-p {
+    /* display: flex; */
+  }
+  .p-footer {
+    max-width: 264px;
+  }
   .footer-container {
     display: flex;
     align-items: baseline;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .icons-footer-list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  .social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
   }
   .mobile-menu {
     display: none;
