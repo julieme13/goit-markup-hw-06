@@ -63,21 +63,6 @@
     display: none;
   }
   /* 1 section */
-  .first-section {
-    background-color: #2e2f42;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    max-width: 1440px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office1.jpg);
-  }
   .post-title {
     display: flex;
     width: 496px;
@@ -133,11 +118,6 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
   /* четверта секція */
-  .third-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    display: flex;
-  }
   .our-portfolio-list {
     display: flex;
     row-gap: 72px;
@@ -147,17 +127,10 @@
   .our-portfolio-item {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    display: flex;
-    width: 360px;
-    height: 420px;
-    flex-direction: column;
   }
   /* footer */
   .footer {
     padding: 100px 0;
-  }
-  .fotter-logo-p {
-    /* display: flex; */
   }
   .p-footer {
     max-width: 264px;
